@@ -22,9 +22,3 @@ tr, th, td {
 .table-entry {
   text-align: center;
 }
-.showing {
-  display: block;
-}
-.hidden {
-  display: none;
-}
