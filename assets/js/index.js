@@ -10,14 +10,14 @@ const sunSchedule = document.getElementById('sun-schedule');
 showThursSchedule = () => {
   if (!thursSchedule.classList.contains('showing')) {
     thursSchedule.classList.add('showing');
-    if (!friSchedule.classList.contains('hidden')) {
-      friSchedule.classList.add('hidden');
+    if (!friSchedule.classList.contains('collapse')) {
+      friSchedule.classList.add('collapse');
     }
-    if (!satSchedule.classList.contains('hidden')) {
-      satSchedule.classList.add('hidden');
+    if (!satSchedule.classList.contains('collapse')) {
+      satSchedule.classList.add('collapse');
     }
-    if (!sunSchedule.classList.contains('hidden')) {
-      sunSchedule.classList.add('hidden');
+    if (!sunSchedule.classList.contains('collapse')) {
+      sunSchedule.classList.add('collapse');
     }
   }
 }
