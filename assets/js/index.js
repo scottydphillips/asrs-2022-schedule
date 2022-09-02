@@ -6,6 +6,7 @@ const satLink = document.getElementById('sat-link');
 const satSchedule = document.getElementById('sat-schedule');
 const sunLink = document.getElementById('sun-link');
 const sunSchedule = document.getElementById('sun-schedule');
+const displayAllLink = document.querySelectorAll('a.back-to-top');
 
 showThursSchedule = () => {
   if (!thursSchedule.hasAttribute('active')) {
@@ -97,4 +98,17 @@ showSunSchedule = () => {
 
 sunLink.addEventListener('click', () => {
   showSunSchedule();
+});
+
+showEverythingAgain = () => {
+  thursSchedule.setAttribute('style', 'display: block');
+  friSchedule.setAttribute('style', 'display: block;');
+  satSchedule.setAttribute('style', 'display: block;');
+  sunSchedule.setAttribute('style', 'display: block;');
+}
+
+displayAllLink.forEach((link) => {
+  link.addEventListener('click', () => {
+    showEverythingAgain();
+  });
 });
