@@ -29,3 +29,11 @@ tr, th, td {
 ol {
   list-style-type: upper-roman;
 }
+.text-left {
+  text-align: left;
+}
+.no-bullet-list {
+  list-style-type: none;
+  text-align: left;
+  text-indent: 10px;
+}
