@@ -23,3 +23,9 @@ tr, th, td {
 .table-entry {
   text-align: center;
 }
+.modal-text-right {
+  text-align: right;
+}
+ol {
+  list-style-type: upper-roman;
+}
