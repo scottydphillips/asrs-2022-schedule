@@ -37,3 +37,6 @@ ol {
   text-align: left;
   text-indent: 10px;
 }
+.modal-backdrop {
+  z-index: 1020;
+}
